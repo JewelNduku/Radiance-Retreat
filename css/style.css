@@ -1,0 +1,59 @@
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background-color: #fff8fb;
+    color: #4a4a4a;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #f8c8dc !important; /* soft pink */
+}
+
+.navbar-brand,
+.nav-link {
+    color: #ffffff !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #6a1b4d !important;
+}
+
+/* HERO SECTION */
+header {
+    background: linear-gradient(135deg, #ffe4ec, #fff);
+    color: #5a2a3a;
+}
+
+/* BUTTONS */
+.btn-primary {
+    background-color: #d36ba6;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #b94f8a;
+}
+
+/* CARDS */
+.card {
+    border: none;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.card h4 {
+    color: #b94f8a;
+}
+
+/* SECTION TITLES */
+h1, h2, h3 {
+    color: #b94f8a;
+}
+
+/* FOOTER */
+footer {
+    background-color: #f8c8dc !important;
+    color: white;
+}
