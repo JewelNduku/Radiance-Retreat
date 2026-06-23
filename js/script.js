@@ -8,8 +8,8 @@ document.getElementById("contactForm").addEventListener("submit", function(event
 
         event.preventDefault();
 
-        document.getElementById("errorMessage").innerHTML =
-            "Please fill in all fields.";
+       document.getElementById("errorMessage").innerHTML =
+"Kindly complete all required fields before submitting.";
 
         document.getElementById("errorMessage").style.color = "#b94f8a";
     }
