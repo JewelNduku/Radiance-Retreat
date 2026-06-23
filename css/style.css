@@ -3,12 +3,17 @@ body {
     background-color: #fff8fb;
     color: #4a4a4a;
     scroll-behavior: smooth;
+    line-height: 1.6;
 }
 
 /* NAVBAR */
 .navbar {
-    background-color: #f8c8dc !important;
-    padding: 12px 20px;
+    background: rgba(248, 200, 220, 0.85);
+    backdrop-filter: blur(10px);
+    padding: 14px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 /* LOGO */
@@ -44,25 +49,37 @@ body {
 header {
     background: linear-gradient(135deg, #ffe4ec, #fff);
     color: #5a2a3a;
+    padding: 80px 20px;
+    text-align: center;
 }
 
+header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #5a2a3a;
+}
 /* BUTTONS */
 .btn-primary {
-    background-color: #d36ba6;
+   background: linear-gradient(135deg, #d36ba6, #b94f8a);
     border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: 0.3s ease; 
 }
 
 .btn-primary:hover {
     background-color: #b94f8a;
+    opacity: 0.9;
 }
 
 /* CARDS */
 .card {
     border: none;
-    border-radius: 12px;
-    background-color: #fff;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-}
+    border-radius: 18px;
+    background: #fff;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+    transition: all 0.3s ease;
+   }
 
 .card h4 {
     color: #b94f8a;
@@ -71,10 +88,19 @@ header {
 /* SECTION TITLES */
 h1, h2, h3 {
     color: #b94f8a;
+    font-weight: 600;
 }
 
 /* FOOTER */
 footer {
     background-color: #f8c8dc ;
     color: #5a2a3a;
+    
+}
+
+.footer-custom {
+    background-color: #f8c8dc;
+    color: #5a2a3a;
+    font-weight: 500;
+    text-align: center;
 }
