@@ -56,26 +56,27 @@
 
             <h4>Share Your Thoughts</h4>
 
-            <form>
+            <form id="contactForm">
 
                 <div class="mb-3">
                     <label class="form-label">Name</label>
-                    <input type="text" class="form-control" placeholder="Your Name">
+                    <input type="text" id="name" class="form-control" placeholder="Your Name">
                 </div>
 
                 <div class="mb-3">
                     <label class="form-label">Email</label>
-                    <input type="email" class="form-control" placeholder="Your Email">
+                    <input type="email" id="email" class="form-control" placeholder="Your Email">
                 </div>
 
                 <div class="mb-3">
                     <label class="form-label">Message</label>
-                    <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+                    <textarea class="form-control" id="message"rows="4" placeholder="Your Message"></textarea>
                 </div>
 
                 <button type="submit" class="btn btn-primary">
                     Send message.
                 </button>
+                <p id="errorMessage" class="mt-3"></p>
 
             </form>
 
