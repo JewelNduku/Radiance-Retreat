@@ -14,3 +14,25 @@ document.getElementById("contactForm").addEventListener("submit", function(event
         document.getElementById("errorMessage").style.color = "#b94f8a";
     }
 });
+
+const darkModeButton = document.getElementById("darkModeBtn");
+
+if (darkModeButton) {
+
+    darkModeButton.addEventListener("click", function () {
+
+        document.body.classList.toggle("dark-mode");
+
+        if (document.body.classList.contains("dark-mode")) {
+
+            darkModeButton.innerHTML = "☀️ Light Mode";
+
+        } else {
+
+            darkModeButton.innerHTML = "🌙 Dark Mode";
+
+        }
+
+    });
+
+}
