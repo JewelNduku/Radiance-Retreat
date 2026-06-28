@@ -112,33 +112,29 @@ footer {
     text-align: center;
 }
 
-/* DARK MODE */
-
 .dark-mode {
-    background-color: #2b2b2b;
+    background-color: #222;
     color: white;
 }
 
-.dark-mode header {
-    background: #3a3a3a;
+.dark-mode .card {
+    background-color: #333;
     color: white;
 }
 
 .dark-mode .navbar {
-    background: #1f1f1f;
-}
-
-.dark-mode .navbar-brand,
-.dark-mode .nav-link {
-    color: white !important;
-}
-
-.dark-mode .card {
-    background: #3a3a3a;
-    color: white;
+    background-color: #111;
 }
 
 .dark-mode footer {
-    background: #1f1f1f;
+    background-color: #111;
     color: white;
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5 {
+    color: #f8c8dc;
 }
